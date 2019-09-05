@@ -1,5 +1,5 @@
 import {test} from "tap";
-import {{NAME}} from "./index"
+import {{NAME}} from "./"
 
 test("works", ({same, end}) => {
   same(
