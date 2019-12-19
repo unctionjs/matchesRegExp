@@ -1,4 +1,3 @@
-import {test} from "tap";
 import {{NAME}} from "./index"
 
 test("works", () => {
