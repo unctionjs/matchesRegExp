@@ -1,3 +1,7 @@
-export default function {{NAME}} (alpha: mixed): mixed {
-  return alpha
+import { TextType } from "./types"
+
+export default function matchesRegExp (expression: RegExp) {
+  return function matchesRegExpExpression (text: string): Boolean {
+    return expression.test(text)
+  }
 }

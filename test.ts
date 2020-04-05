@@ -1,5 +1,5 @@
-import {{NAME}} from "./index"
+import matchesRegExp from "./index"
 
 test("works", () => {
-  expect({{NAME}}(1)).toEqual(true);
+  expect(matchesRegExp(/abcd/)("abcde")).toEqual(true);
 });

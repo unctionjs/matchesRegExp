@@ -1,15 +1,15 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/matchesregexp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Compares a regular expression and a string",
   "keywords": [
     "unction",
     "functional"
   ],
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/matchesRegExp#readme",
+  "repository": "github:unctionjs/matchesRegExp",
+  "bugs": "https://github.com/unctionjs/matchesRegExp/issues",
   "contributors": [
     {
       "name": "Kurtis Rainbolt-Greene",
@@ -62,13 +62,5 @@
     "jest-extended": "0.11.x",
     "typescript": "3.x"
   },
-  "dependencies": {
-    "@unction/attach": "7.10.0",
-    "@unction/fresh": "8.9.1",
-    "@unction/get": "2.10.0",
-    "@unction/keys": "10.10.0",
-    "@unction/reducevalues": "8.10.0",
-    "@unction/type": "5.0.2",
-    "ramda": "0.24.1"
-  }
+  "dependencies": {}
 }
